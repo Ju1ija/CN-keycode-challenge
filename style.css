@@ -44,3 +44,22 @@ body {
 .description {
   border-top: 1px solid #FF881B;
 }
+
+@media screen and (max-width: 1024px) {
+  body {
+    font-size: 18px;
+  }
+  #keycode {
+    font-size: 150px;
+    margin: 0 0 20px 0;
+  }
+  #any-key {
+    font-size: 20px;
+  }
+  #about {
+    flex-direction: column;
+  }
+  .card div {
+    width: 220px;
+  }
+}
